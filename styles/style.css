@@ -1,0 +1,190 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: 'Roboto', sans-serif;
+	font-optical-sizing: auto;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+li {
+	list-style: none;
+}
+
+/* HEADER */
+header {
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 1.5rem 20rem;
+	background-color: #1f2937;
+}
+header .nav-logo {
+	display: flex;
+	align-items: center;
+}
+header .nav-logo a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	color: #e5e7eb;
+}
+header .nav-logo img {
+	display: none;
+	/* For now but if needed to use an image, this can be modify. */
+}
+header .nav-links ul {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+header .nav-links a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+header .nav-links .yellow a {
+	background-color: yellow;
+	padding: 8px 32px;
+	border-radius: 8px;
+	color: #1f2937;
+	/* border: 1px solid #2882f6; */
+}
+
+/* HERO */
+.hero {
+	background-color: #1f2937;
+	gap: 3rem;
+	padding: 2rem 0;
+}
+.hero .hero-text {
+	width: 450px;
+	height: 200px;
+}
+.hero .hero-text h1 {
+	font-size: 48px;
+	color: #faf9f8;
+	font-weight: 900;
+}
+.hero .hero-text p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #e5e7eb;
+	margin-bottom: 1rem;
+}
+.cta-btn {
+	background-color: #2882f6;
+	color: #f9faf8;
+	font-weight: 500;
+	border-radius: 8px;
+	border: 2px solid #2882f6;
+	padding: 8px 32px;
+	text-decoration: none;
+}
+.hero-image img {
+	width: 540px;
+	height: 340px;
+	background-color: darkgrey;
+	color: #e5e7eb;
+	text-align: center;
+	align-content: center;
+}
+
+/* FEATURES */
+.features {
+	padding: 4rem 0;
+	display: block;
+	text-align: center;
+}
+.feature-text p {
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 900;
+	margin-bottom: 3rem;
+}
+.feature-item {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	/* gap: 5rem; */
+	width: 800px;
+	margin: auto;
+}
+.feature-item img {
+	/* border: #2882f6 3px solid; */
+	border-radius: 20px;
+	padding: 70px;
+	margin-bottom: 0.5rem;
+}
+.feature-item p {
+	width: 150px;
+	margin: auto;
+}
+
+/* QUOTE */
+.quote-section {
+	margin: 1rem 0;
+	padding: 10rem 0;
+	background-color: #e5e7eb;
+}
+.quote {
+	margin: auto;
+	width: 790px;
+}
+.quote-line {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	font-weight: 300;
+}
+.author {
+	font-size: 24px;
+	font-weight: 700;
+	color: #1f2937;
+	text-align: right;
+}
+
+/* CALL TO ACTION */
+.call-to-action {
+	padding: 4rem 0;
+	color: #f9faf8;
+}
+.call-to {
+	background-color: #2882f6;
+	display: flex;
+	gap: 10rem;
+	padding: 3rem 10rem;
+	border-radius: 8px;
+	align-items: center;
+}
+.cta-text p {
+	color: #e5e7eb;
+	font-size: 18px;
+	font-weight: 300;
+}
+.cta-signup {
+	background-color: #2882f6;
+	color: #f9faf8;
+	font-weight: 500;
+	border-radius: 8px;
+	border: 2px solid #faf9f8;
+	padding: 8px 32px;
+	text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+	background-color: #1f2937;
+	padding: 2.5rem 0;
+	color: #f9faf8;
+	text-align: center;
+}
